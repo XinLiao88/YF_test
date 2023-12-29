@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./vip_data.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/logo_ico.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+    <script src="../js/jquery-3.7.1.js"></script>
+    <script src="../js/js.js"></script>
+    <title>圓食｜會員資料</title>
+</head>
+
+<body>
+    <header class="top">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="search">
+            <li>
+                <input type="search" placeholder="搜尋產品">
+            </li>
+            <li class="vip">
+                <a href="../vip/vip_login.html">
+                    <img src="../img/icon/vip.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="../img/icon/cart.svg" alt="">
+                </a>
+    
+            </li>
+        </ul>
+        <ul class="select1">
+            <li><a href="../index/about.html">關於圓石</a></li>
+            <li><a href="../index/news.html">最新消息</a>
+                <ol>
+                    <a href="../index/news.html">新品上市</a>
+                    <a href="../index/news.html">本月優惠</a>
+                </ol>
+            </li>
+            <li>
+                <a href="../product/vegetable1.html">冷藏蔬果</a>
+                <ol>
+                    <a href="../product/vegetable1.html">葉菜類</a>
+                    <a href="../product/vegetable1.html">根莖類</a>
+                    <a href="../product/vegetable1.html">花菜類</a>
+                    <a href="../product/vegetable1.html">菇蕈類</a>
+                    <a href="../product/vegetable1.html">果菜類</a>
+                    <a href="../product/vegetable1.html">飲品類</a>
+                </ol>
+            </li>
+            </ul>
+            <ul>
+                <li class="logo">
+                    <a href="../index.html">
+                        <img src="../img/LOGO1226.svg" alt=""></a>
+                </li>
+            </ul>
+            <ul class="select2">
+                <li>
+                    <a href="../product/fresh_food1.html">冷凍生鮮</a>
+                    <ol>
+                        <a href="../product/fresh_food1.html">生鮮雞肉</a>
+                        <a href="../product/fresh_food1.html">生鮮豬肉</a>
+                        <a href="../product/fresh_food1.html">生鮮牛肉</a>
+                        <a href="../product/fresh_food1.html">生鮮羊肉</a>
+                        <a href="../product/fresh_food1.html">海鮮水產</a>
+                        <a href="../product/fresh_food1.html">其他生鮮</a>
+                    </ol>
+                </li>
+                <li>
+                    <a href="../product/vegetable1.html">蔬食箱類</a>
+                    <ol>
+                        <a href="../product/vegetable1.html">每週蔬食</a>
+                        <a href="../product/vegetable1.html">食譜組合</a>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#">料理食譜</a>
+                    <ol>
+                        <a href="#">葷食組合</a>
+                        <a href="#">素食組合</a>
+                    </ol>
+                </li>
+            </ul>
+    </header>
+
+<!-- ------all_content------ -->
+ <!-- <div class="all_content"> -->
+<!-- ------左側選單------ -->
+
+<div class="main">
+    <div class="vip_menu">
+        <img src="/img/icon/vip_pic.png" alt="">
+        <h1>會員中心</h1>
+        <a href="#">訂單查詢</a>
+        <a href="#">退/換貨</a>
+        <a href="#">我的收藏</a>
+        <a href="#">會員資料</a>
+    </div>
+
+<!-- ------content------ -->
+    <div class="table">
+
+
+        <div class="content">
+
+            <h1>會員資料</h1>
+            <div class="input1">
+                <span>姓名</span>
+                <input type="text" placeholder="王小明">
+                <span>手機</span>
+                <input type="text" placeholder="09*****12">
+                <form><span>Email</span>
+                <input type="email" placeholder="pi******@gmail.com" pattern=".+@gmail\.com" size="30" maxlength="64"></form>
+            </div>
+
+                <ul class="gender">
+                    <span>姓別</span>
+                    <li><input id="male" type="radio" name="xx" />
+                        <label for="male">男性</label>
+                    </li>
+                    <li><input id="female" type="radio" name="xx" />
+                        <label for="female">女性</label>
+                    </li>
+                    <li><input id="other" type="radio" name="xx" />
+                        <label for="other">其他</label>
+                    </li>
+                </ul>
+
+                <ul class="birthday">
+                    <span>生日</span>
+                    <li><select>
+                            <option>出生年</option>
+                            <option>1985</option>
+                            <option>1986</option>
+                            <option>1987</option>
+                            <option>1988</option>
+                            <option>1989</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                        </select></li>
+                    <li><select>
+                            <option>月</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select></li>
+                    <li><select>
+                            <option>日</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                        </select></li>
+                </ul>
+            <div class="input2">
+                <span>地址</span>
+                <input type="text" placeholder="台北市中山區南京東路三段219號5樓">
+                <span>密碼</span>
+                <input type="password" placeholder="*******">
+
+            </div>
+                
+           
+            <!-- <ul>
+                <li><input type="checkbox" /></li>
+                <li>
+                    <p>我同意圓食客戶隱私政策與客戶條款</p>
+                </li>
+            </ul> -->
+
+            <form action="#">
+                <input type="submit" value="儲存" />
+            </form>
+
+        </div>
+    </div>
+</div>
+<!-- </div> -->
+
+
+    <!-- -------footer------ -->
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>
+                    <img src="../img/logo_white2.svg" alt="" class="logo_f">
+                </li>
+                <li>
+                    <h4>關於我們</h4>
+                    <a href="../index/about.html">品牌理念</a>
+                    <a href="../index.html">最新消息</a>
+                </li>
+                <li>
+                    <h4>最新消息</h4>
+                    <a href="../index/news.html">本月優惠</a>
+                    <a href="../index/news.html">新品上市</a>
+                </li>
+                <li>
+                    <h4>取得協助</h4>
+                    <a href="#">常見問題</a>
+                    <a href="#">歷史訂單</a>
+                </li>
+                <li>
+                    <h4>追蹤我們</h4>
+                    <ul>
+                        <li><a href="#"><img src="../img/icon/line.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icon/facebook.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../img/icon/IG.svg" alt=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <p>本網站為緯育TibaMe【第89期】前端工程師專業技術養成班學員作品,僅供學習、展示之用途。</p>
+            <p>Copyright© 2023 YUAN FOOD Inc.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

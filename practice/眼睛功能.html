@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>眼睛</title>
+
+    <style>
+
+    h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    .inputmix{
+      border: 1px solid;
+    }
+    .inputmix{
+      /* width: 800px; */
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 0; /*讓兼具變小 */
+    }
+    .inputmix i{
+      width: 40px;
+      height: 40px;
+      border: 1px solid #999;
+      text-align: center;
+      line-height: 40px;
+      font-size: 16px;
+      vertical-align: middle;
+    }
+    .inputmix input{
+      width: 300px;
+      height: 40px;
+      border: 1px solid #999;
+      vertical-align: middle;
+      border-width: 1px 0;
+      font-size: 18px;
+      outline: 0; /* 取消 input滑鼠點進去的時候變藍色匡 */
+    }
+    .inputmix .fa-user{
+      border-right: 0;
+      border-radius: 10px 0 0 10px;
+    }
+    .inputmix .fa-eye-slash{
+      border-left: 0;
+      border-radius: 0 10px 10px 0;
+      cursor: pointer;
+      color: #999;
+    }
+    .inputmix .fa-eye-slash:hover{
+      color: #333;
+    }
+    .inputmix ::placeholder{
+      color: #ccc;
+    }
+
+    .content{
+      margin: 0 50px;
+    }
+    .content img{
+      width: 100%;
+    }
+    .content h3{
+      padding: 20px;
+    }
+
+    </style>
+</head>
+<body>
+  <div class="content">
+    <div class="inputmix">
+        <h3>左邊 icon + 中間 input + 右邊 icon</h3>
+    
+        <div>
+            <i class="fa-regular fa-user">
+                <!-- ::before -->
+            </i>
+            <input type="password" placeholder="Your Password..." id="myInput">
+            <i class="fa-regular fa-eye-slash" id="eyes">
+                <!-- ::before -->
+            </i>
+        </div>
+
+      <img src="../img/index/discount1.png" alt="">
+      <div>
+      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis delectus, itaque voluptatibus repudiandae eos facilis ducimus non voluptate laboriosam repellendus quos obcaecati ullam quas totam nisi, libero nostrum error optio impedit iure quisquam. Necessitatibus suscipit nemo consectetur quos quae, odit doloribus quas facere impedit error placeat praesentium accusamus illum perferendis magni dolor ab, mollitia voluptatibus similique? Impedit sit exercitationem consequuntur nobis facilis qui quas molestiae corrupti dolore ipsa enim a, aliquid voluptatem similique non eaque sapiente dicta eveniet dolorem neque cum. Sapiente, fugit dolorum perferendis odit explicabo totam et unde facilis voluptatibus, maiores reiciendis doloribus iure enim! Nisi itaque sint, ratione laboriosam nesciunt ab voluptates ullam ex fuga obcaecati dignissimos error at odio amet officia beatae ipsum dolores cum neque eaque facilis? Eius sunt rerum debitis magni, dolor sint adipisci </h3>
+      </div>
+  </div>
+
+        <script>
+            window.onload = function () {
+
+                var x = document.getElementById("myInput");
+                document.getElementById('eyes').onclick = function () {
+                    if (x.type == "password") {
+                        x.type = "text";
+                        this.classList.add('fa-eye');
+                    } else {
+                        x.type = "password";
+                        this.classList.remove('fa-eye')
+                    }
+                }
+
+            }
+        </script>
+</body>
+</html>
