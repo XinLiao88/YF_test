@@ -358,11 +358,11 @@ footer li:last-child > h4 {
         visibility: hidden;
     }
     
-    /* .logo_f{
-        content: url(../img/logo_white.svg);
+    .logo_f{
+        content: url(../img/LOGO_white.svg);
         padding-top: 6px;
         width: 56px;
-    } */
+    }
     .footer li{
         /* padding: 0; */
         width: 160px;
