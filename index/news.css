@@ -415,6 +415,11 @@ h1{
     .news {
         letter-spacing: .07rem;
     }
+    .logo_f{
+        content: url(../img/logo_white.svg);
+        padding-top: 6px;
+        width: 56px;
+    }
 }
 
 @media screen and (max-width: 650px) {
